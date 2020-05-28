@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('MediaSDK.EncoderSDK-2.0.171.aar'))
