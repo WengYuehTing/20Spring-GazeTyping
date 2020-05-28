@@ -1198,17 +1198,37 @@ public class MainActivity extends Activity implements MediaCaptureCallback, Netw
                     switch(highlighted) {
                         case "1":
                             can1.setTextColor(Color.parseColor("#FF0000"));
+                            can2.setTextColor(Color.parseColor("#000000"));
+                            can3.setTextColor(Color.parseColor("#000000"));
+                            can4.setTextColor(Color.parseColor("#000000"));
+                            can5.setTextColor(Color.parseColor("#000000"));
                             break;
                         case "2":
+                            can1.setTextColor(Color.parseColor("#000000"));
                             can2.setTextColor(Color.parseColor("#FF0000"));
+                            can3.setTextColor(Color.parseColor("#000000"));
+                            can4.setTextColor(Color.parseColor("#000000"));
+                            can5.setTextColor(Color.parseColor("#000000"));
                             break;
                         case "3":
+                            can1.setTextColor(Color.parseColor("#000000"));
+                            can2.setTextColor(Color.parseColor("#000000"));
                             can3.setTextColor(Color.parseColor("#FF0000"));
+                            can4.setTextColor(Color.parseColor("#000000"));
+                            can5.setTextColor(Color.parseColor("#000000"));
                             break;
                         case "4":
+                            can1.setTextColor(Color.parseColor("#000000"));
+                            can2.setTextColor(Color.parseColor("#000000"));
+                            can3.setTextColor(Color.parseColor("#000000"));
                             can4.setTextColor(Color.parseColor("#FF0000"));
+                            can5.setTextColor(Color.parseColor("#000000"));
                             break;
                         case "5":
+                            can1.setTextColor(Color.parseColor("#000000"));
+                            can2.setTextColor(Color.parseColor("#000000"));
+                            can3.setTextColor(Color.parseColor("#000000"));
+                            can4.setTextColor(Color.parseColor("#000000"));
                             can5.setTextColor(Color.parseColor("#FF0000"));
                             break;
                     }

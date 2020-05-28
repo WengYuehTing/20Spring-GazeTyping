@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Media Streamer (Demo)</string>
-    <string name="app_short_name">Media Streamer (Demo)</string>
+    <string name="app_name">Gaze Typing</string>
+    <string name="app_short_name">Gaze Typing</string>
 
 
     <string name="menu_settings">Settings</string>
@@ -117,4 +117,5 @@
     <string name="settingsTranscode_enable_title">enable argb raw data</string>
     <string name="settingsTranscode_enable_summary">""</string>
     
-</resources>
+</resources>
+
