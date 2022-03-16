@@ -8,8 +8,6 @@ import android.view.View;
 
 public class GestureHandler implements View.OnTouchListener {
 
-    // 大佬好
-
     // 长按时间界限（超过此时间则为长按）
     private static final long LONGPRESS_TIME_THRESHOLD = 300;
 
@@ -170,7 +168,6 @@ public class GestureHandler implements View.OnTouchListener {
             case MotionEvent.ACTION_MOVE:
 
                 Log.d("Debug","Action Move");
-
                 endPoint.x = event.getRawX();
                 endPoint.y = event.getRawY();
 
