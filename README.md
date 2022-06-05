@@ -1,14 +1,12 @@
 # android-camera-streamer
-This project implemented image frame capturing in real time and video-streaming to a remote server in high FPS and resolution. For experimental purposes. 
-![concept](app/src/main/res/drawable/concept.png "concept")
+The final project of the 2020 Spring Semester HCIT (Human-Computer Interaction Technology) class, implementing real-time camera streaming in Android devices with third-party h264 encoder and RTSP streaming dependencies. There is a lack of project refactoring, containing other unrelated code like gesture manipulations and UI controls. 
 
 # Backend Decoder
-Using ffmpeg framework that was defaultly embedded in opencv to decode video stream like common IPCamera:
-```
+```python
 import cv2
 streaming_url = 'rtsp://{your ip}:{your port}/ch0'
 cap = cv2.VideoCapture(streaming_url, cv2.CAP_FFMPEG)
 while cap.isOpened():
   ret, frame = cap.read()
-  # process your frame here
+  # process frame here
 ```
