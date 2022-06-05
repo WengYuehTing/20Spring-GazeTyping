@@ -1,5 +1,5 @@
 # android-camera-streamer
-The final project of the 2020 Spring Semester HCIT (Human-Computer Interaction Technology) class, implementing real-time camera streaming in Android devices with third-party h264 encoder and RTSP streaming dependencies. There is a lack of project refactoring, containing other unrelated code like gesture manipulations and UI controls. 
+The final project of the 2020 Spring Semester HCIT course, implementing real-time camera streaming to Android devices with third-party h264 encoder and RTSP streaming dependencies. The project is a lack of refactoring, containing some unnecessary code like gesture manipulations and UI controls etc.
 
 # Backend Decoder
 ```python
